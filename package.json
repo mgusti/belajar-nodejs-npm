@@ -1,0 +1,24 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "homepage": "https://programmerzamannow.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgusti/belajar-nodejs-npm"
+  },
+  "scripts": {
+    "prestart": "echo 'Before application start'",
+    "start": "node index.js",
+    "poststart": "echo 'After application start'",
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammmad Gusti Kurniawan",
+  "license": "ISC",
+  "type": "module"
+}
