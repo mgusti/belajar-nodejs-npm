@@ -20,5 +20,12 @@
   },
   "author": "Muhammmad Gusti Kurniawan",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.x",
+    "belajar-nodejs-npm-library-serenity": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
 }
